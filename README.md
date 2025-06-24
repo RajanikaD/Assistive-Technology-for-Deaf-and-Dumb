@@ -1,7 +1,29 @@
-# Assistive-Technology-for-Deaf-and-Dumb
-Sign Language Detector
+# 🤟 Assistive Technology for Deaf and Mute Communication
 
-This projects detects the gestures and identifies them, essentially translating the sign gestures to universal language i.e., English in real-time. This project uses the concept of Object Detection and Classification using TensorFlow. 
-For mapping, MediaPipe is used to ensure the mapping of finger tips in order to detect them.
-The objective of this project is to build a bridge between a person with hearing/speaking disabilities and a person without such disabilities. As, not everyone knows the sign language which makes it difficult for them to be understood in the outside world.
+This project leverages computer vision and deep learning to **translate sign language gestures into text**, enabling real-time communication for the deaf and mute community.
+
+---
+
+## ✨ Features
+
+- 📷 **Real-time gesture detection** using webcam
+- 🧠 **CNN + LSTM** model to classify sign language gestures
+- ⚙️ **FastAPI backend** for live stream inference
+- 🐳 Containerized with Docker for easy deployment
+- ☁️ Designed for low-latency cloud deployment (AWS ECS ready)
+
+---
+
+## 🚀 Tech Stack
+
+| Component        | Tools Used                          |
+|------------------|-------------------------------------|
+| Frontend         | OpenCV, Webcam Stream               |
+| Model            | PyTorch (CNN + LSTM)                |
+| Backend          | FastAPI, Python                     |
+| Deployment       | Docker, AWS ECS                     |
+
+---
+
+## 📁 Project Structure
 
