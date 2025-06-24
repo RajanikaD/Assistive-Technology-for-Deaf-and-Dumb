@@ -25,5 +25,5 @@ This project leverages computer vision and deep learning to **translate sign lan
 
 ---
 
-## 📁 Project Structure
+
 
